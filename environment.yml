@@ -244,3 +244,6 @@ dependencies:
       - threadpoolctl==3.2.0
       - tzdata==2023.3
       - werkzeug==3.0.1
+      - -e gaussian_splatting/submodules/diff-gaussian-rasterization/
+      - -e gaussian_splatting/submodules/simple-knn/
+      - -e gaussian_splatting/submodules/nvdiffrast/

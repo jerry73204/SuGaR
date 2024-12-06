@@ -1,0 +1,3 @@
+[submodule "gaussian_splatting/submodules/nvdiffrast"]
+	path = gaussian_splatting/submodules/nvdiffrast
+	url = git@github.com:NVlabs/nvdiffrast.git

@@ -23,6 +23,36 @@ LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS
 <b>Our method extracts meshes from 3D Gaussian Splatting reconstructions and builds hybrid representations <br>that enable easy composition and animation in Gaussian Splatting scenes by manipulating the mesh.</b>
 </div>
 
+## For DIP Project Users
+
+### Environment Setup
+
+1. Please install Conda on your system. Please install miniconda if
+   you haven't do it yet.
+
+2. Run the environment setup script.
+   ```sh
+   make setup
+   ```
+   After the setup finishes, activate the development environment.
+   ```sh
+   conda activate sugar
+   ```
+
+### Train a SuGaR Model
+
+Please prepare a COLMAP dataset directory. Here we assumes the directory.
+
+```
+~/dataset/
+```
+
+Start training by
+
+```sh
+make train DATASET_DIR=~/dataset
+```
+
 ## Abstract
 
 _We propose a method to allow precise and extremely fast mesh extraction from <a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/">3D Gaussian Splatting (SIGGRAPH 2023)</a>.
